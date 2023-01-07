@@ -1,0 +1,19 @@
+@import "../../public/css/style.css";
+
+.wp-block-marcosrego-web-flipbook-block {
+  position: relative;
+}
+
+.wp-block-marcosrego-web-flipbook-block > .fbb-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.block-editor-block-list__block.wp-block:focus
+  > .wp-block-marcosrego-web-flipbook-block
+  > .fbb-button {
+  display: none;
+}

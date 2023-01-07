@@ -1,0 +1,12 @@
+{
+	"name": "marcosrego-web/flipbook-block",
+	"title": "FlipBook",
+	"category": "media",
+	"icon": "book",
+	"description": "Shows a PDF from your Media in a Flip Book, for your visitors to turn the pages.",
+	"keywords": [ "pdf", "viewer", "reader", "flip", "pages", "turn", "flipbook", "book" ],
+	"textdomain": "flipbook-block",
+	"editorScript": "file:./admin/js/block.js",
+	"editorStyle": "file:./admin/css/editor.css",
+	"style": "file:./public/css/style.css"
+}

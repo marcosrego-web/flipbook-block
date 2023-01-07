@@ -1,0 +1,11 @@
+.wp-block-marcosrego-web-flipbook-block iframe {
+  border: 0;
+  overflow: hidden;
+}
+
+@media (orientation: portrait) {
+  .wp-block-marcosrego-web-flipbook-block iframe {
+    width: 100% !important;
+    height: 50vw !important;
+  }
+}
