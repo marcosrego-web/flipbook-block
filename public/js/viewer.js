@@ -27,7 +27,7 @@
 
 "use strict";
 
-var DEFAULT_URL = "vendor/iamapinan/pdf-html5-page-flip/web/pdf.pdf";
+var DEFAULT_URL = "pdf-html5-page-flip/web/pdf.pdf";
 var DEFAULT_SCALE_DELTA = 1.1;
 var MIN_SCALE = 0.25;
 var MAX_SCALE = 10.0;
@@ -38,9 +38,8 @@ var PAGE_NUMBER_LOADING_INDICATOR = "visiblePageIsLoading";
 var DISABLE_AUTO_FETCH_LOADING_BAR_TIMEOUT = 5000;
 
 PDFJS.imageResourcesPath = "./images/";
-PDFJS.workerSrc =
-  "vendor/iamapinan/pdf-html5-page-flip/web/build/pdf.worker.js";
-PDFJS.cMapUrl = "vendor/iamapinan/pdf-html5-page-flip/web/cmaps/";
+PDFJS.workerSrc = "pdf-html5-page-flip/web/build/pdf.worker.js";
+PDFJS.cMapUrl = "pdf-html5-page-flip/web/cmaps/";
 PDFJS.cMapPacked = true;
 
 var mozL10n = document.mozL10n || document.webL10n;
