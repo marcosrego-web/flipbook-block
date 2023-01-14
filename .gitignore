@@ -5,13 +5,13 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-vendor/composer
-vendor/autoload.php
-vendor/bin
-vendor/**/.git
+/vendor/composer
+/vendor/autoload.php
+/vendor/bin
+/vendor/**/.git
 
-vendor/iamapinan/pdf-html5-page-flip/viewer.html
-vendor/iamapinan/pdf-html5-page-flip/viewer.js
+/vendor/iamapinan/pdf-html5-page-flip/viewer.html
+/vendor/iamapinan/pdf-html5-page-flip/viewer.js
 
 # Coverage directory used by tools like istanbul
 coverage
